@@ -105,7 +105,7 @@ badges:
 	@VERSION=$$(grep -m 1 'version = ' pyproject.toml | cut -d'"' -f2); \
 	echo "![Version](https://img.shields.io/badge/version-$$VERSION-blue)" > .github/badges/version.md
 	@echo "![Python Version](https://img.shields.io/badge/python-3.11%2B-blue)" > .github/badges/python.md
-	@echo "![License](https://img.shields.io/badge/license-MIT-green)" > .github/badges/license.md
+	@echo "[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)" > .github/badges/license.md
 	@echo "![Linting: ruff](https://img.shields.io/badge/linting-ruff-red)" > .github/badges/ruff.md
 	@echo "![Package: poetry](https://img.shields.io/badge/package-poetry-blue)" > .github/badges/poetry.md
 	@echo "![Tests: pytest](https://img.shields.io/badge/tests-pytest-0A9EDC)" > .github/badges/pytest.md
