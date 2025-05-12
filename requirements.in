@@ -1,0 +1,4 @@
+# Dependencies file for pip-tools
+# Run pip-compile to generate requirements.txt
+
+# Main project dependencies
