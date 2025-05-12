@@ -7,7 +7,7 @@
 ![Package: poetry](https://img.shields.io/badge/package-poetry-blue)
 ![Tests: pytest](https://img.shields.io/badge/tests-pytest-0A9EDC)
 ![Coverage](https://img.shields.io/badge/coverage-88%25-green)
-![License](https://img.shields.io/badge/license-MIT-green)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 ![Linting: ruff](https://img.shields.io/badge/linting-ruff-red)
 <!--END_BADGES-->
 
@@ -222,4 +222,4 @@ docker run python_template
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
